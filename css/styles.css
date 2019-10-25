@@ -1,3 +1,27 @@
 .float {
   float: left;
 }
+
+body {
+line-height: 2cm;
+word-spacing: 5px;
+}
+ h6 {
+   background-color: #ccf2ff;
+   font-style: italic;
+
+ }
+
+ #cresult, #javascresult, #pythonresult {
+   display: none;
+ }
+
+button {
+  height:60px;
+  width:60px;
+  border-radius: 12px;
+  background-color: #82a0ad;
+  color: white;
+
+
+}  
