@@ -5,6 +5,10 @@
 body {
 line-height: 1cm;
 word-spacing: 3px;
+background-image: url("code.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
 }
 
  h6 {
@@ -23,7 +27,5 @@ button {
   background-color: #82a0ad;
   color: white;
 }
-
-#language {
-
-}
+.container {
+  background-color: rgba(0, 100, 130, 0.5);;
