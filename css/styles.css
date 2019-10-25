@@ -3,11 +3,12 @@
 }
 
 body {
-line-height: 1cm;
-word-spacing: 3px;
-background-image: url("code.jpg");
-background-repeat: no-repeat;
-background-size: cover;
+  line-height: 1cm;
+  word-spacing: 3px;
+  background-image: url("code.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 2cm;
 
 }
 
@@ -27,5 +28,22 @@ button {
   background-color: #82a0ad;
   color: white;
 }
+
 .container {
-  background-color: rgba(0, 100, 130, 0.5);;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-family: Playful Display;
+  font-weight: bold;
+  color: #bdf0ff;
+}
+
+h5 {
+  color: white;
+  font-family: Montserrat;
+}
+h2, button  {
+
+font-family: 'Montserrat';
+
+color: #01223D;
+text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #2580f7, 0 0 30px #2580f7, 0 0 40px #2580f7, 0 0 55px #2580f7, 0 0 75px #2580f7;
+}
