@@ -3,13 +3,13 @@
 }
 
 body {
-line-height: 2cm;
-word-spacing: 5px;
+line-height: 1.5cm;
+word-spacing: 3px;
 }
+
  h6 {
    background-color: #ccf2ff;
    font-style: italic;
-
  }
 
  #cresult, #javascresult, #pythonresult {
@@ -22,3 +22,8 @@ button {
   border-radius: 12px;
   background-color: #82a0ad;
   color: white;
+}
+
+#language {
+  
+}
