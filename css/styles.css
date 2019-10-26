@@ -7,8 +7,9 @@ body {
   word-spacing: 3px;
   background-image: url("code.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   margin-top: 2cm;
+  font-size: 15px;
 
 }
 
@@ -19,6 +20,23 @@ body {
 
  #cresult, #javascresult, #pythonresult {
    display: none;
+   height: 400px;
+   width: 400px;
+   position: relative;
+   float: right;
+   margin-bottom: 60%;
+ }
+
+ .terminal {
+  position: relative;
+  width: 100%;
+ }
+
+ .text {
+position: absolute;
+width:100%;
+left: 0;
+top: 200px;
  }
 
 button {
@@ -34,14 +52,15 @@ button {
   font-family: Playful Display;
   font-weight: bold;
   color: #bdf0ff;
+  font-size: 12px;
 }
 
 h5 {
   color: white;
   font-family: Montserrat;
+  font-size: 15px;
 }
-h2, button  {
-
+h4, button  {
 font-family: 'Montserrat';
 
 color: #01223D;
