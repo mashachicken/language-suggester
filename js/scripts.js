@@ -9,10 +9,16 @@ $(document).ready(function(){
      console.log(total);
      if (total <= 5){
        $("#cresult").toggle();
+       $("#javascresult").hide();
+       $("#pythonresult").hide();
      } else if (total > 5 && total <= 9){
        $("#javascresult").toggle()
+       $("#cresult").hide()
+        $("#pythonresult").hide();
      } else if (total >= 12 ) {
        $("#pythonresult").toggle()
+       $("#cresult").hide();
+       $("#javascresult").hide();
      }else {
        alert("what have you done")
      }

@@ -7,7 +7,7 @@ body {
   word-spacing: 3px;
   background-image: url("code.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 130%;
   margin-top: 2cm;
   font-size: 15px;
 
@@ -24,20 +24,9 @@ body {
    width: 400px;
    position: relative;
    float: right;
-   margin-bottom: 60%;
+   ;
  }
 
- .terminal {
-  position: relative;
-  width: 100%;
- }
-
- .text {
-position: absolute;
-width:100%;
-left: 0;
-top: 200px;
- }
 
 button {
   height:60px;
