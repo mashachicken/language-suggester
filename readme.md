@@ -10,7 +10,7 @@ A website that helps people determine what programming language is best for them
 
 ## to check out my website, visit my GitHub page. Below I will attach a direct link to my repository
 
-* open the terminal and type "git clone https://github.com/mashaivy/Programming-Language-Suggester.git "
+* open the terminal and type "git clone https://github.com/mashachicken/language-suggester.git"
 * press enter. Your local clone will be created
 * open the index.html file in a browser of your choice
 * enjoy
