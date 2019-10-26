@@ -8,8 +8,7 @@ body {
   background-image: url("code.jpg");
   background-repeat: no-repeat;
   background-size: 130%;
-  margin-top: 2cm;
-  font-size: 15px;
+  font-size: 13px;
 
 }
 
@@ -34,6 +33,9 @@ button {
   border-radius: 12px;
   background-color: #82a0ad;
   color: white;
+  border: 2px solid white;
+
+
 }
 
 .container {
@@ -41,17 +43,20 @@ button {
   font-family: Playful Display;
   font-weight: bold;
   color: #bdf0ff;
-  font-size: 12px;
 }
 
-h5 {
+h5, p {
   color: white;
   font-family: Montserrat;
   font-size: 15px;
 }
-h4, button  {
-font-family: 'Montserrat';
+h3 {
+  text-align: center;
+  height: 1cm;
+}
 
+h3, button  {
+font-family: 'Montserrat';
 color: #01223D;
 text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #2580f7, 0 0 30px #2580f7, 0 0 40px #2580f7, 0 0 55px #2580f7, 0 0 75px #2580f7;
 }

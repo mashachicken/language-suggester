@@ -15,12 +15,12 @@ $(document).ready(function(){
        $("#javascresult").toggle()
        $("#cresult").hide()
         $("#pythonresult").hide();
-     } else if (total >= 12 ) {
+     } else if (total >= 10 ) {
        $("#pythonresult").toggle()
        $("#cresult").hide();
        $("#javascresult").hide();
      }else {
-       alert("what have you done")
+       alert("what have you done?!")
      }
   });
 });
